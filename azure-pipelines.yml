@@ -2,8 +2,9 @@ pool:
   vmImage: 'ubuntu-20.04'
 
 variables:
+  name: 'local'
   buildConfiguration: 'Release'
-  dotnetSdkVersion: '6.x'
+  dotnetSdkVersion: '5.x'
 
 steps:
 - task: UseDotNet@2
